@@ -1,0 +1,9 @@
+# 텍스트 파일 줄바꿈 자동 정규화 (cross-platform diff 깨짐 방지)
+* text=auto
+
+# 바이너리 파일 명시 (diff/병합 시도 방지)
+*.png   binary
+*.jpg   binary
+*.pptx  binary
+*.pt    binary
+*.onnx  binary

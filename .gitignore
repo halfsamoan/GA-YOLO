@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ===== 대용량 산출물 (저장소 제외) =====
+# 학습 가중치 / 모델
+*.pt
+*.onnx
+*.engine
+# 로컬 작업 트리 골격 (실데이터·결과물은 별도 환경에 존재)
+/runs/
+/dataset_v3_0a/
+/dataset_v3_0b/
+/qualeval_v4_2/
+/nms_sweep_v4_3/
+/family_meta_v4_4/
+/bbox_sweep_v4_5/
+/wsl_final_outputs/
+
+# ===== 내부 작업 파일 (공개 제외) =====
+AGENTS.md
+PROJECT_CONTEXT_CODEX.md
+# 이전 보고서 버전 (최종본만 docs/reports 에 유지)
+GA_YOLO_progress_report.pptx
+GA_YOLO_final_progress_report.pptx
+~$*.pptx
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

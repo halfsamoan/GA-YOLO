@@ -1,0 +1,154 @@
+{
+  "baseline": {
+    "id": "A0",
+    "name": "A0_v4_0_baseline",
+    "mode": "viridis",
+    "model_name": "YOLOv8n",
+    "map50": 0.968,
+    "map50_95": 0.775,
+    "precision": 0.985,
+    "recall": 0.962,
+    "params_m": 3.0,
+    "speed_ms": 3.4,
+    "batch_used": 16,
+    "note": "V4.0 baseline (aug default)"
+  },
+  "results": [
+    {
+      "id": "A",
+      "name": "A_vir_n",
+      "mode": "viridis",
+      "model": "yolov8n.pt",
+      "model_name": "YOLOv8n",
+      "data": "/home/kmin/RD_YOLO_GHOST/dataset_v3_0b/data.yaml",
+      "save_dir": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_A_vir_n",
+      "best_path": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_A_vir_n/weights/best.pt",
+      "results_csv": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_A_vir_n/results.csv",
+      "batch_used": 16,
+      "train_time_sec": 2245.670696258545,
+      "note": "V4.1 retrain (aug off)",
+      "map50": 0.9618131661096918,
+      "map50_95": 0.9019867642146941,
+      "precision": 0.9818990631842934,
+      "recall": 0.9401010818921267,
+      "class_metrics": {
+        "real_target": {
+          "precision": 0.9904797867917476,
+          "recall": 0.9701492537313433,
+          "map50": 0.9940063164273227,
+          "map50_95": 0.9261232779013338
+        },
+        "ghost_target": {
+          "precision": 0.9733183395768393,
+          "recall": 0.91005291005291,
+          "map50": 0.9296200157920609,
+          "map50_95": 0.8778502505280545
+        }
+      },
+      "speed_ms": 5.563290945010522,
+      "params_m": 3.006038
+    },
+    {
+      "id": "B",
+      "name": "B_gray_n",
+      "mode": "gray*",
+      "model": "yolov8n.pt",
+      "model_name": "YOLOv8n",
+      "data": "/home/kmin/RD_YOLO_GHOST/dataset_v4_1_gray/data.yaml",
+      "save_dir": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_B_gray_n",
+      "best_path": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_B_gray_n/weights/best.pt",
+      "results_csv": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_B_gray_n/results.csv",
+      "batch_used": 16,
+      "train_time_sec": 2313.7487738132477,
+      "note": "V4.1 (aug off)",
+      "map50": 0.9628369356716544,
+      "map50_95": 0.9118428130769969,
+      "precision": 0.9776727659154067,
+      "recall": 0.953182111591516,
+      "class_metrics": {
+        "real_target": {
+          "precision": 0.981565057836187,
+          "recall": 0.9893390191897654,
+          "map50": 0.9940871710914096,
+          "map50_95": 0.9471705965476872
+        },
+        "ghost_target": {
+          "precision": 0.9737804739946264,
+          "recall": 0.9170252039932667,
+          "map50": 0.9315867002518992,
+          "map50_95": 0.8765150296063068
+        }
+      },
+      "speed_ms": 4.747571625030105,
+      "params_m": 3.006038
+    },
+    {
+      "id": "C",
+      "name": "C_vir_s",
+      "mode": "viridis",
+      "model": "yolov8s.pt",
+      "model_name": "YOLOv8s",
+      "data": "/home/kmin/RD_YOLO_GHOST/dataset_v3_0b/data.yaml",
+      "save_dir": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_C_vir_s",
+      "best_path": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_C_vir_s/weights/best.pt",
+      "results_csv": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_C_vir_s/results.csv",
+      "batch_used": 16,
+      "train_time_sec": 2476.5257711410522,
+      "note": "V4.1 (aug off)",
+      "map50": 0.9649535491462607,
+      "map50_95": 0.9169494017496831,
+      "precision": 0.9735322332125087,
+      "recall": 0.9356480442057857,
+      "class_metrics": {
+        "real_target": {
+          "precision": 0.9825510279416042,
+          "recall": 0.9605123123507232,
+          "map50": 0.9926963279995952,
+          "map50_95": 0.9465463796579872
+        },
+        "ghost_target": {
+          "precision": 0.9645134384834131,
+          "recall": 0.9107837760608483,
+          "map50": 0.9372107702929263,
+          "map50_95": 0.8873524238413794
+        }
+      },
+      "speed_ms": 7.396267114891089,
+      "params_m": 11.126358
+    },
+    {
+      "id": "D",
+      "name": "D_gray_s",
+      "mode": "gray*",
+      "model": "yolov8s.pt",
+      "model_name": "YOLOv8s",
+      "data": "/home/kmin/RD_YOLO_GHOST/dataset_v4_1_gray/data.yaml",
+      "save_dir": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_D_gray_s",
+      "best_path": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_D_gray_s/weights/best.pt",
+      "results_csv": "/home/kmin/RD_YOLO_GHOST/runs/detect/ga_yolo_v4_1_D_gray_s/results.csv",
+      "batch_used": 16,
+      "train_time_sec": 2955.2184891700745,
+      "note": "V4.1 (aug off)",
+      "map50": 0.9599172705538426,
+      "map50_95": 0.9010633215608065,
+      "precision": 0.9794674704790469,
+      "recall": 0.9562704783941829,
+      "class_metrics": {
+        "real_target": {
+          "precision": 0.9957045504294602,
+          "recall": 0.9885064313003431,
+          "map50": 0.9948704872459521,
+          "map50_95": 0.9332385322131644
+        },
+        "ghost_target": {
+          "precision": 0.9632303905286338,
+          "recall": 0.9240345254880227,
+          "map50": 0.9249640538617332,
+          "map50_95": 0.8688881109084488
+        }
+      },
+      "speed_ms": 10.709224785023252,
+      "params_m": 11.126358
+    }
+  ]
+}
